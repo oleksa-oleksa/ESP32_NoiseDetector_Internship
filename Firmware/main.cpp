@@ -66,7 +66,7 @@ void app_main(void){
     *********************************************************************************/
     boot = new BootWiFi();
     boot->boot();
-    // pwm_melody_wifi_connected(&pwm_config);
+    pwm_melody_wifi_connected(&pwm_config);
 
     /*********************************************************************************
     * Queue for Interrupts and Time Scheduling
