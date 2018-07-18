@@ -1,0 +1,23 @@
+# Ignore list for Eagle, a PCB layout tool
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+
+# Ignore CLions Setup Files
+**/.DS_Store
+**/.idea
+**/.cbuild
+**/.settings
+**/.cproject
+**/sdkconfig.old
+**/cproject
+**/sdkconfig
+**/CMakeLists.txt
+**/cmake-build-debug
+**/.project
+**/build
