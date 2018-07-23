@@ -102,15 +102,15 @@ void nvs_write_value(int varType, int16_t value) {
             err = nvs_set_i16(handle, "refVoltage", value);
             break;
         case VARIABLE_SET_SOUND:
-            printf("Reading reference voltage from NVS ...");
+            printf("Updating reference voltage in NVS ...");
             err = nvs_set_i16(handle, "buzzer", value);
             break;
         case VARIABLE_SET_LED:
-            printf("Reading reference voltage from NVS ...");
+            printf("Updating reference voltage in NVS ...");
             err = nvs_set_i16(handle, "led", value);
             break;
         case VARIABLE_SET_THRESHOLD:
-            printf("Reading reference voltage from NVS ...");
+            printf("Updating reference voltage in NVS ...");
             err = nvs_set_i16(handle, "threshold", value);
             break;
         default:

@@ -57,7 +57,7 @@ void spi_to_noise_click_slave_init(spi_device_interface_config_t *devcfg, spi_de
 
 }
 /**********************************************************************************
- * Send a data to the Noise Click.
+ * Sends a data to the Noise Click.
  * Creates control word with a custom ref voltage
 **********************************************************************************/
 void spi_to_noise_click_transmit_cmd(spi_device_handle_t spi, int vInNoiseClick){
