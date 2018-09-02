@@ -1,7 +1,8 @@
 Internet of Things internship project written in C/C++
 
-NOISE DETECTOR HELPS TO WORK IN HEALTHY ENVIRONMENT
-DETECTED NOISE LEVEL APPEARS ONLINE IN THE CLOUD SERVICE
+Noise Detector helps to work in healthy enviroment. Noise Detector is a simple and efficient way of lowering noise levels in the office or public places. It is easy to move from one place to another and get measurements in the new space.
+
+No software installation is required. Just turn on and connect to your WiFi Network. Immediately after connecting, the device starts to send the measured noise level to a cloud service enabling analytics for your working environment, even without invasive notifications.
 
 During internship I have got the practical experience wuth ESP32 Microcontroller, WiFi connectivity and MQTT cloud service communication, sensors integration, SPI, UART, PWM, ADC, multimeter and oscilloscope. I have designed PCB board in Eagle CAD, ordered components with BOM.
 
